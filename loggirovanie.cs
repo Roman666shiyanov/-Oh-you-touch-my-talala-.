@@ -11,7 +11,7 @@ namespace Витрина
     {
         public static void Logger(string text)
         {
-			// казываем путь для записи
+			// указываем путь для записи
             string path = "C:\\loggirovanie.txt";
             File.AppendAllText(path, text + " " + DateTime.Now + "\n");
 
